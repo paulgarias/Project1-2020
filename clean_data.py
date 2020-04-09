@@ -1,7 +1,7 @@
 import pandas as pd 
 import numpy as np 
 
-def show_message(name, greet="hello"):
+def show_message(name, greet="Hello"):
     if greet=="hello":
         print(f"Hello, {name}!")
     elif greet=="goodbye":
